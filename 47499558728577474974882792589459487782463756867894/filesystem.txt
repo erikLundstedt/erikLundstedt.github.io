@@ -1,0 +1,51 @@
+
+|apl
+|   |--ArbetsMaterial
+|   |  |<!---->
+|   |--PsykologiicentrumHemsidesprojekt/*gitlab start*/
+|   |  |--filesystem.txt  /*denna fil*/
+|   |  |--img
+|   |  |  |--interior1.png
+|   |  |  |--interior2.png
+|   |  |  |--interior3.png
+|   |  |  |--PsykologiLogo.png
+|   |  |  |--Vinnie1.png
+|   |  |  |--Vinnie2.png
+|   |  |--css
+|   |  |  |--Master.css
+|   |  |--html
+|   |  |  |--index.html
+|   |  |  |--About.html
+|   |  |  |--Contact.html
+|   |  |  |--anmalan.html/*anmälan*/
+|   |  |--js
+|   |  |  |--Master.js
+|   |  |  |--navbar.js
+
+
+
+
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
+|  |  |--
