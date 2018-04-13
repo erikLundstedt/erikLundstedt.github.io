@@ -44,7 +44,7 @@ q
 	width: 100%;
 	max-height: 250px;
 	min-height:250px;
-/*	padding:15px 1px;*/
+	/*	padding:15px 1px;*/
 }
 
 
@@ -119,12 +119,12 @@ Show the link that contains should open and close the topnav (.icon) */
 	}
 	/*.topnav .responsive a {}*/
 
-.active
-{
-	float: none;
-	display: block;
-	text-align: left;
-}
+	.active
+	{
+		float: none;
+		display: block;
+		text-align: left;
+	}
 }
 
 /*colors*/
