@@ -27,20 +27,19 @@ function myFunction() {
 		x.classList.remove("active")
 		console.log("inactive");
 	}
-else if (x.classlist==="topnav sticky active")
-{
-	x.classList.remove("active")
-	console.log("inactive");
-}
+	else if (x.classlist==="topnav sticky active")
+	{
+		x.classList.remove("active")
+		console.log("inactive");
+	}
 	else
 	{
 		x.classList.add("active")
 		console.log("active");
 	}
 
-		}
-	}
 }
+
 
 
 
@@ -55,5 +54,5 @@ function stylechange()
 		x.className=("spacer white")
 		state=true
 	}
-//	x.classList.exsists()
+	//	x.classList.exsists()
 }
