@@ -180,8 +180,25 @@ body, html{
 	*/
 	background-attachment:fixed;
 }
+/*
+/*
+*/
+.forest
+{
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	/*
+	fixed = parallax
+	scroll = normal
+	*/
+	background-attachment:scroll;
+}
+
 .forest{
-	background-image:url('../img/skog.jpg');
+	background-image:url('../img/skog2.jpg');
 
 	min-height:400px;
 }
