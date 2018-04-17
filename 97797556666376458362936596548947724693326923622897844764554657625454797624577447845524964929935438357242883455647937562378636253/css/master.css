@@ -22,8 +22,17 @@ body {
 
 q
 {
-	font-size: 25px;
+	font-size: 15px;
+	font-style: italic;
 }
+
+ul,li
+{
+/*	text-decoration: none;*/
+	list-style-type: none;
+}
+
+
 
 
 #litenBild
@@ -237,12 +246,15 @@ body, html{
 .section-light{
 	background-color:#f4f4f4;
 	color:#666;
+	color: #29292d;
+	color:#282e34;
 }
 
 .section-dark{
 	background-color: #303040;
 	background-color:#282e34;
 	color:#ddd;
+	color:#f4f4f4;
 }
 
 .ptext{
