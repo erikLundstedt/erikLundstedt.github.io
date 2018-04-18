@@ -163,7 +163,10 @@ Show the link that contains should open and close the topnav (.icon) */
 {
 	padding:15px;
 }
-
+.logotext p,.logotext h1,.logotext h2,.logotext h4,.logotext h5,.logotext h6,.logotext li
+{
+		color: #009999;
+}
 
 /*paralax*/
 body, html{
@@ -176,7 +179,7 @@ body, html{
 	color:#666;
 }
 
-.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest
+.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.meditation
 {
 	position:relative;
 	opacity:0.70;
@@ -205,7 +208,14 @@ body, html{
 	*/
 	background-attachment:scroll;
 }
-
+.meditation
+{
+	background-image:url('../img/meditation.jpg');
+	background-image:url('../img/meditationSmall.jpeg');
+/*
+*/
+	min-height:400px;
+}
 .forest{
 	background-image:url('../img/skog2.jpg');
 
@@ -277,7 +287,7 @@ body, html{
 }
 
 @media(max-width:568px){
-	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest
+	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.meditation
 	{
 		background-attachment:scroll;
 	}
