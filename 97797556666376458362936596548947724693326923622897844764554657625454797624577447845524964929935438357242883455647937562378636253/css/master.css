@@ -163,7 +163,7 @@ Show the link that contains should open and close the topnav (.icon) */
 {
 	padding:15px;
 }
-.logotext p,.logotext h1,.logotext h2,.logotext h4,.logotext h5,.logotext h6,.logotext li
+.logotext h2
 {
 		color: #009999;
 }
@@ -260,9 +260,7 @@ body, html{
 }
 
 .section-dark{
-	background-color: #303040;
-	background-color:#282e34;
-	color:#ddd;
+	background-color:#004d4d;
 	color:#f4f4f4;
 }
 
