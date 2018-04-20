@@ -35,8 +35,8 @@ function initAPI()
 		// Parse JSON string into object
 		var quote;
 		var quoteJSON = JSON.parse(response);
-		quote = quoteJSON.toString();
-		console.log(quoteJSON+"    "quote);
+		quote = quoteJSON.quote1;
+		console.log(quoteJSON+"    "+quote);
 	}
 );
 }
