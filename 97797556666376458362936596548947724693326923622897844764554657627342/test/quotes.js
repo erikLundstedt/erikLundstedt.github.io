@@ -32,11 +32,13 @@ function initAPI()
 {
 	loadFromAPI(function(response)
 	{
+		var quoteTag=document.getElementById("quote");
 		// Parse JSON string into object
 		var quote;
 		var quoteJSON = JSON.parse(response);
 		quote = quoteJSON.quote1;
 		console.log(quoteJSON+"    "+quote);
+		quoteTag.innerHTML = quote;
 	}
 );
 }
