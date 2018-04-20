@@ -1,6 +1,6 @@
 //var showQ = document.getElementById("quote");
 
-
+/*
 function initAPI()
 {
 	loadFromAPI(function(response)
@@ -11,7 +11,7 @@ function initAPI()
 	}
 );
 }
-
+*/
 
 function loadFromAPI(callback)
 {
@@ -33,9 +33,10 @@ function initAPI()
 	loadFromAPI(function(response)
 	{
 		// Parse JSON string into object
+		var quote;
 		var quoteJSON = JSON.parse(response);
+		//quote = quoteJSON.toArray();
 		console.log(quoteJSON);
-		//var quote=quoteJSON.
 	}
 );
 }
