@@ -53,9 +53,15 @@ ul,li
 	width: 100%;
 	max-height: 250px;
 	min-height:250px;
-	/*	padding:15px 1px;*/
 }
 
+@media screen and (max-width: 600px)
+{
+		#banner
+	{
+		padding:0px 50px;
+	}
+}
 
 .header
 {
@@ -261,6 +267,7 @@ body, html{
 
 .section-dark{
 	background-color:#004d4d;
+	background-color:#282e34;
 	color:#f4f4f4;
 }
 
