@@ -25,11 +25,13 @@ function fun2()
 	var navbar = document.getElementsByClassName("luxbar-navigation");
 	var sticky = topnav.offsetTop;
 	var classes = navbar.classList;
-	var x=270;//250
-	if (window.pageYOffset<=2) {
+	var x=290;//250
+	if (window.pageYOffset<=0.999999999999999999) {
 		topnav.style.margin="0px 0px 0px";
+		//topnav.style.backgroundAttachment="fixed";
 	} else {
 		topnav.style.padding= x-window.pageYOffset-5+"px 0px 0px";
+		//topnav.style.backgroundAttachment="scroll";
 	}
 
 	console.log(sticky+"...padding: "+topnav.style.padding+"...offset: "+window.pageYOffset);
@@ -40,33 +42,36 @@ function main()
 {
 	var topnav = document.getElementById("luxbar");
 	var sticky = topnav.offsetTop;
-	navbar.style.padding=window.pageYOffset+"252px 0px";
+	topnav.style.padding=window.pageYOffset+"252px 0px";
 	console.log("123");
 }
-main();
-
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+//main();
+fun2();
+/*
+Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
+*/
 /*
 function myFunction() {
-	var x = document.getElementById("navbar");
-	var classes=x.classList;
-	console.log("........."+x.className);
-	if (x.classList === "topnav active")
-	{
-		x.classList.remove("active")
-		console.log("inactive");
-	}
-	else if (x.classlist==="topnav sticky active")
-	{
-		x.classList.remove("active")
-		console.log("inactive");
-	}
-	else
-	{
-		x.classList.add("active")
-		console.log("active");
-	}
-}*/
+var x = document.getElementById("navbar");
+var classes=x.classList;
+console.log("........."+x.className);
+if (x.classList === "topnav active")
+{
+x.classList.remove("active")
+console.log("inactive");
+}
+else if (x.classlist==="topnav sticky active")
+{
+x.classList.remove("active")
+console.log("inactive");
+}
+else
+{
+x.classList.add("active")
+console.log("active");
+}
+}
+*/
 
 
 

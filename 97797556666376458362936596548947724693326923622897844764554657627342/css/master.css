@@ -33,16 +33,21 @@ ul,li
 	list-style-type: none;
 }
 
+h1{padding: inherit;}
+h2{padding: 5px 8px;}
+h3{padding: inherit;}
+h4{padding: 5px 8px;}
+h5{padding: inherit;}
+h6{padding: inherit;}
 
-
-
-#litenBild
+.float-left{float: left;}
+.float-right{float: right;}
+.litenBild-
 {
 	max-width: 390px;
 	max-height: 500px;
 	width: 90%;
 }
-
 
 
 
@@ -54,6 +59,7 @@ ul,li
 	width: 100%;
 	max-height: 250px;
 	min-height:250px;
+	padding: 15px 30px 0px;
 }
 
 @media screen and (max-width: 450px)
@@ -79,6 +85,7 @@ ul,li
 .luxbar{
 	background-color: #333;
 	overflow: hidden;
+	padding-top: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -88,7 +95,7 @@ ul,li
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	/*padding: 24px 16px;*/
 	text-decoration: none;
 	font-size: 17px;
 }
@@ -204,37 +211,9 @@ body, html{
 	line-height:1.8em;
 	color:#666;
 }
-
-.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar
-{
-	position:relative;
-	opacity:0.70;
-	background-position:center;
-
-	background-size:cover;
-	background-repeat:no-repeat;
-	/*
-	fixed = parallax
-	scroll = normal
-	*/
-	background-attachment:fixed;
-}
 /*
 /*
 */
-.forest
-{
-	position:relative;
-	opacity:0.70;
-	background-position:center;
-	background-size:cover;
-	background-repeat:no-repeat;
-	/*
-	fixed = parallax
-	scroll = normal
-	*/
-	background-attachment:scroll;
-}
 .stenar
 {
 	background-image:url('../img/stenar.jpg');
@@ -245,8 +224,17 @@ body, html{
 }
 .forest{
 	background-image:url('../img/skog2.jpg');
-
 	min-height:400px;
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	/*
+	fixed = parallax
+	scroll = normal
+	*/
+	background-attachment:scroll;
 }
 
 .interior1{
@@ -273,29 +261,58 @@ body, html{
 	background-image:url("../img/PsykologiLogo2.jpg");
 	min-height:400px;
 }
+.mys{
+	background-image:url("../img/mys.jpg");
+	min-height:400px;
+}
+.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar,.mys
+{
+	position:relative;
+	opacity:0.70;
+	background-position:center;
 
-.quotes{
-	background-color: red;
+	background-size:cover;
+	background-repeat:no-repeat;
+	/*
+	fixed = parallax
+	scroll = normal
+	*/
+	background-attachment:fixed;
 }
 
+@media(max-width:500px){/*568*/
+.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar,.mys
+	{
+		background-attachment:scroll;
+	}
+
+	#top{
+		z-index: 1;
+	}
+}
+
+
+
+.quotes{
+	/**/
+	background-color:inherit;
+
+}
 .section{
 	text-align:center;
 	padding:50px 80px;
 }
-
 .section-light{
 	background-color:#f4f4f4;
 	color:#666;
 	color:#29292d;
 	color:#282e34;
 }
-
 .section-dark{
 	background-color:#004d4d;
 	background-color:#282e34;
 	color:#f4f4f4;
 }
-
 .ptext{
 	position:absolute;
 	top:50%;
@@ -304,26 +321,13 @@ body, html{
 	color:#000;
 	font-size:25px;/*27*/
 }
-
 .ptext .border{
 	background-color:#111;
 	color:#fff;
 	padding:20px;
 }
-
 .ptext .border.trans{
 	background-color:transparent;
-}
-
-@media(max-width:500px){/*568*/
-	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar
-	{
-		background-attachment:scroll;
-	}
-
-	#top{
-		z-index: 1;
-	}
 }
 /*social*/
 @font-face {
@@ -350,7 +354,6 @@ header h1 {
 	height: 200px;
 	font-size: 0;
 }
-
 .tab {
 	display: inline-block;
 	background-color: #444;
@@ -362,19 +365,15 @@ header h1 {
 	margin: 0;
 	transition: all 0.5s ease-in-out 0.1s;
 }
-
 .tab:hover {
 	width: 450px;
 }
-
 .tab:hover .social a:before {
 	margin-left: -80px;
 }
-
 .tab:hover .social a:after {
 	margin-left: -5px;
 }
-
 .tab .content {
 	background: #fff;
 	width: 350px;
@@ -383,18 +382,15 @@ header h1 {
 	padding: 40px 0 0 15px;
 	position: relative;
 }
-
 .tab .content h1 {
 	font-size: 2.5rem;
 	margin-bottom: 10px;
 }
-
 .tab .content p {
 	font-size: 0.85rem;
 	line-height: 1.4rem;
 	padding-right: 30px;
 }
-
 .social a:after,
 .social a:before {
 	transition: all 0.4s ease-in-out 0.1s;
@@ -408,14 +404,12 @@ header h1 {
 	font: normal 30px Genericons;
 	color: #fff;
 }
-
 .social a:after {
 	font-size: 48px;
 	padding-left: 20px;
 	padding-top: 80px;
 	margin-left: 85px;
 }
-
 .soundcloud a:before,
 .soundcloud a:after {
 	content: '\f426';
@@ -457,8 +451,7 @@ header h1 {
 	padding: 30px;
 	text-align: center;
 }
-.sticky
-{
+.sticky{
 	position: fixed;
 	top: 0;
 	width: 100%;
