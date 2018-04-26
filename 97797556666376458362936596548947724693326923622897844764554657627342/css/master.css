@@ -64,23 +64,25 @@ ul,li
 	/*	padding:0px 50px;*/
 	}
 }
-
+/*
 .header
 {
 	background-attachment: fixed
 }
+*/
 
 
-
-/*navbar*/
+/*navbar
+.topnav
+*/
 /* Add a black background color to the top navigation */
-.topnav {
+.luxbar{
 	background-color: #333;
 	overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a
+.luxbar-item a
 {
 	float: left;
 	display: block;
@@ -92,11 +94,11 @@ ul,li
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.luxbar-item a:hover {
 	background-color: #ddd;
+	background-color: red;
 	color: black;
 }
-
 /* Add an active class to highlight the current page */
 .home {
 	background-color: #009999;
@@ -107,6 +109,7 @@ ul,li
 .topnav .icon {
 	display: none;
 }
+
 /*responsivenes*/
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
 Show the link that contains should open and close the topnav (.icon) */
@@ -121,6 +124,11 @@ Show the link that contains should open and close the topnav (.icon) */
 		display: block;
 	}
 }
+
+
+
+
+
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 500px) {/*600PX*/
@@ -143,6 +151,15 @@ Show the link that contains should open and close the topnav (.icon) */
 		text-align: left;
 	}
 }
+
+
+
+
+
+
+
+
+
 
 /*colors*/
 .white
@@ -169,7 +186,8 @@ Show the link that contains should open and close the topnav (.icon) */
 }
 .spacer
 {
-	padding:15px;
+	padding:10px;
+/*	float: ;*/
 }
 .logotext h2,.logotext h4
 {
@@ -187,7 +205,7 @@ body, html{
 	color:#666;
 }
 
-.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar,.vinnie3
+.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar
 {
 	position:relative;
 	opacity:0.70;
@@ -251,10 +269,6 @@ body, html{
 	background-image:url('../img/Vinnie2.jpg');
 	min-height:400px;
 }
-.vinnie3{
-	background-image:url('../img/Vinnie3.jpg');
-	min-height:400px;
-}
 .PsykologiLogo{
 	background-image:url("../img/PsykologiLogo2.jpg");
 	min-height:400px;
@@ -302,7 +316,7 @@ body, html{
 }
 
 @media(max-width:500px){/*568*/
-	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar,.vinnie3
+	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar
 	{
 		background-attachment:scroll;
 	}
@@ -449,5 +463,5 @@ header h1 {
 	top: 0;
 	width: 100%;
 	z-index: 10;
-	padding-top: 20px;
+	padding-top: 270px;
 }

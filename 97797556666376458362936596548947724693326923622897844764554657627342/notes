@@ -31,3 +31,23 @@
 </section>
 <section class="spacer loggocol">
 </section>
+
+
+
+
+
+
+
+
+<div class="topnav" id="navbar">
+	<a href="#home" class="home">hem</a>
+	<a href="#about">Om mig</a>
+	<a href="#course">Kursen</a>
+	<a href="#contact">Kontakta mig</a>
+	<a href="./test/test.html">testQuotes</a>
+	<a href="./404/404.html">404!</a>
+	<!--<a href=""onclick="stylechange()">1223</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+-->
+
+</div>
