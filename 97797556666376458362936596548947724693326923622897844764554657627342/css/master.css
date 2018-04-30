@@ -42,14 +42,18 @@ h6{padding: inherit;}
 
 .float-left{float: left;}
 .float-right{float: right;}
-.litenBild-
+.litenBild-landscape
 {
 	max-width: 390px;
 	max-height: 500px;
-	width: 90%;
+	width: 40%;
 }
-
-
+.litenBild-portrait
+{
+	max-height: 390px;
+	max-width: 500px;
+	/*width: 90%;*/
+}
 
 #banner
 {
@@ -222,20 +226,6 @@ body, html{
 /*
 */
 }
-.forest{
-	background-image:url('../img/skog2.jpg');
-	min-height:400px;
-	position:relative;
-	opacity:0.70;
-	background-position:center;
-	background-size:cover;
-	background-repeat:no-repeat;
-	/*
-	fixed = parallax
-	scroll = normal
-	*/
-	background-attachment:scroll;
-}
 
 .interior1{
 	background-image:url('../img/interior1.jpg');
@@ -243,6 +233,10 @@ body, html{
 }
 .interior2{
 	background-image:url('../img/interior2.jpg');
+	min-height:400px;
+}
+.bench{
+	background-image:url('../img/theBench.jpg');
 	min-height:400px;
 }
 .interior3{
@@ -265,7 +259,7 @@ body, html{
 	background-image:url("../img/mys.jpg");
 	min-height:400px;
 }
-.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar,.mys
+.pimg1, .pimg2, .pimg3, .interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
 {
 	position:relative;
 	opacity:0.70;
@@ -281,7 +275,7 @@ body, html{
 }
 
 @media(max-width:500px){/*568*/
-.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.forest,.stenar,.mys
+.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
 	{
 		background-attachment:scroll;
 	}
@@ -289,6 +283,20 @@ body, html{
 	#top{
 		z-index: 1;
 	}
+}
+.girlOnBalcony{
+	background-image:url('../img/skog2.jpg');
+	min-height:650px;
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	/*
+	fixed = parallax
+	scroll = normal
+	*/
+	background-attachment:scroll;
 }
 
 
