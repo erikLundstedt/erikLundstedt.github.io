@@ -1,3 +1,27 @@
+Vinnie, en Bichon havanaise som gillar att mysa på Psykologi i Centrum.
+Rasen är mycket alllergivänlig och social.
+Men meddela om du ogärna vill ha hundsällskap, så ordnar vi hundfritt när du kommer till mig.
+
+
+
+
+<q cite="[object Object]">Om du kan få dagens arbete gjort idag, men du gör det på ett sådant sätt att du inte kan få morgondagens arbete gjort i morgon, så förlorar du.</q>
+<p>- Martin Fowler</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p>
 	Minskar stress och oro
 	Förbättrar sömnen och ger lugn
@@ -51,3 +75,148 @@
 -->
 
 </div>
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.luxbar{
+	background-color: #333;
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.luxbar-item a
+{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	/*padding: 24px 16px;*/
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.luxbar-item a:hover {
+	background-color: #ddd;
+	background-color: red;
+	color: black;
+}
+/* Add an active class to highlight the current page */
+.home {
+	background-color: #009999;
+	color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//document.getElementById("luxbar").style.padding="50px 0px";
+
+
+
+//window.onscroll = function() {myFunction()};
+//window.onscroll = function() {fun2()};
+
+function myFunction() {
+	var navbar = document.getElementById("luxbar");
+	var sticky = navbar.offsetTop;
+	var classes = navbar.classList;
+	var x=210;//230
+	if (window.pageYOffset >= 284) {//230/sticky284
+		navbar.classList.add("sticky")
+		console.log(window.pageYOffset+". . . ."+sticky+" true");
+	} else if (window.pageYOffset <= 284){//230/sticky
+		navbar.classList.remove("sticky");
+		console.log(window.pageYOffset+". . . ."+sticky+" false");
+	}
+}
+
+function fun2()
+{
+	var topnav = document.getElementById("luxbar");
+	var navbar = document.getElementsByClassName("luxbar-navigation");
+	var sticky = topnav.offsetTop;
+	var classes = navbar.classList;
+	var x=290;//250
+	if (window.pageYOffset<=0.999999999999999999) {
+		topnav.style.margin="0px 0px 0px";
+		//topnav.style.backgroundAttachment="fixed";
+	} else {
+		topnav.style.padding= x-window.pageYOffset-5+"px 0px 0px";
+		//topnav.style.backgroundAttachment="scroll";
+	}
+
+	console.log(sticky+"...padding: "+topnav.style.padding+"...offset: "+window.pageYOffset);
+}
+
+
+function main()
+{
+	var topnav = document.getElementById("luxbar");
+	var sticky = topnav.offsetTop;
+	topnav.style.padding=window.pageYOffset+"252px 0px";
+	console.log("123");
+}
+//main();
+fun2();
+/*
+Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
+*/
+/*
+function myFunction() {
+var x = document.getElementById("navbar");
+var classes=x.classList;
+console.log("........."+x.className);
+if (x.classList === "topnav active")
+{
+x.classList.remove("active")
+console.log("inactive");
+}
+else if (x.classlist==="topnav sticky active")
+{
+x.classList.remove("active")
+console.log("inactive");
+}
+else
+{
+x.classList.add("active")
+console.log("active");
+}
+}
+*/
+
+
+
+
+var state=false
+function stylechange()
+{
+	var x = document.getElementById("style");
+	if (state===true) {
+		x.className=("spacer loggocol")
+		state=false
+	} else if(state===false){
+		x.className=("spacer white")
+		state=true
+	}
+	//	x.classList.exsists()
+}
