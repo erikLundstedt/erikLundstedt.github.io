@@ -20,6 +20,12 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	*/
 }
+p
+{
+/**/
+}
+
+
 
 q
 {
@@ -39,6 +45,13 @@ h3{padding: inherit;}
 h4{padding: 5px 8px;}
 h5{padding: inherit;}
 h6{padding: inherit;}
+/*
+p{}
+a{}
+
+
+
+*/
 
 .float-left{float: left;}
 .float-right{float: right;}
@@ -117,8 +130,11 @@ h6{padding: inherit;}
 
 .loggocol
 {
-	background-color:#009999;
+	/*background-color:#009999;
 	color:#ddd;
+*/
+	color:#fff!important;
+	background-color:#009999!important;
 }
 .spacer
 {
