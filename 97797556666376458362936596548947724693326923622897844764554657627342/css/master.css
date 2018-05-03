@@ -20,10 +20,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	*/
 }
-p
-{
-/**/
-}
+
 
 
 
@@ -45,13 +42,19 @@ h3{padding: inherit;}
 h4{padding: 5px 8px;}
 h5{padding: inherit;}
 h6{padding: inherit;}
-/*
-p{}
+p {padding: 5px 8px;}
+	/*
 a{}
-
-
-
 */
+.text-center ul li p
+{
+color: red;
+align-content: left;
+}
+
+
+
+
 
 .float-left{float: left;}
 .float-right{float: right;}
@@ -239,13 +242,9 @@ body, html{
 	*/
 	background-attachment:scroll;
 }
-
-
-
 .quotes{
 	/**/
 	background-color:inherit;
-
 }
 .section{
 	text-align:center;
