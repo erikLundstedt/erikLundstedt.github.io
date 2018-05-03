@@ -9,6 +9,15 @@ html
 {
 	font-family:'Gill Sans', 'Open Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
 	width: 100%;
+
+	box-sizing: border-box;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+*,*:before,*:after
+{
+	box-sizing: inherit;
 }
 
 body {
@@ -48,8 +57,10 @@ a{}
 */
 .text-center ul li p
 {
-color: red;
-align-content: left;
+/*color: red;*/
+justify-content: left;
+
+
 }
 
 
@@ -94,8 +105,7 @@ align-content: left;
 }
 */
 
-#banner
-{
+#banner{
 	background:url("../img/PsykologiLogo.jpg") center no-repeat;
 	background-color: rgb(256, 256, 256);
 	background-size:contain;
@@ -105,50 +115,34 @@ align-content: left;
 	/*	padding:15px 1px;*/
 }
 
-
-
-
-
-
-
-
-
 /*colors*/
-.white
-{
+.white{
 	background-color: #fff;
 }
-.red
-{
+.red{
 	background-color:red;
 }
-.green
-{
+.green{
 	background-color:green;
 }
-.blue
-{
+.blue{
 	background-color:blue;
 }
 
-.loggocol
-{
+.loggocol,.hover-loggocol:hover{
 	/*background-color:#009999;
 	color:#ddd;
 */
 	color:#fff!important;
 	background-color:#009999!important;
 }
-.spacer
-{
+.spacer{
 	padding:20px;
 /*	float: ;*/
 }
-.logotext h2,.logotext h4
-{
+.logotext h2,.logotext h4{
 		color: #009999;
 }
-
 /*paralax*/
 body, html{
 	height:100%;
@@ -160,17 +154,14 @@ body, html{
 	color:#666;
 }
 /*
-/*
+		*/
+		/*
 */
-.stenar
-{
+.stenar{
 	background-image:url('../img/stenar.jpg');
 	max-width: 100%;
 	min-height:400px;
-/*
-*/
 }
-
 .interior1{
 	background-image:url('../img/interior1.jpg');
 	min-height:400px;
@@ -372,6 +363,9 @@ header h1 {
 .facebook a:after {
 	background-color: #3b5998;
 }
+
+
+
 @media (max-width: 950px) {/*950*/
 	.container
 	{

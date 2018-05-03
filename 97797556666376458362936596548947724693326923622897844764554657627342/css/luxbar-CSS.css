@@ -204,6 +204,10 @@
 	padding: 0;
 }
 
+
+
+
+
 @media screen and (min-width: 768px)
 {
 	.luxbar-navigation
@@ -430,3 +434,21 @@
 	background-color: #fff;
 }
 /*# sourceMappingURL=luxbar.min.css.map */
+
+
+
+.luxbar-menu-loggocol,.luxbar-menu-loggocol .dropdown ul
+{
+	background-color: #009999;
+	color: #fff;
+}
+
+.luxbar-menu-loggocol .active,.luxbar-menu-loggocol .luxbar-item:hover
+{
+	background-color: #006064;
+}
+
+.luxbar-menu-loggocol .luxbar-hamburger span,.luxbar-menu-loggocol .luxbar-hamburger span::before,.luxbar-menu-loggocol .luxbar-hamburger span::after
+{
+	background-color: #fff;
+}

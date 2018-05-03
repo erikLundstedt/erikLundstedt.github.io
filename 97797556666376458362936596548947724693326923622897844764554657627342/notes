@@ -1,3 +1,23 @@
+.luxbar-menu-loggocol,.luxbar-menu-loggocol .dropdown ul
+{
+	background-color: #009999;
+	color: #fff;
+}
+
+.luxbar-menu-loggocol .active,.luxbar-menu-loggocol .luxbar-item:hover
+{
+	background-color: #006064;
+}
+
+.luxbar-menu-loggocol .luxbar-hamburger span,.luxbar-menu-loggocol .luxbar-hamburger span::before,.luxbar-menu-loggocol .luxbar-hamburger span::after
+{
+	background-color: #fff;
+}
+
+
+
+
+
 Vinnie, en Bichon havanaise som gillar att mysa på Psykologi i Centrum.
 Rasen är mycket alllergivänlig och social.
 Men meddela om du ogärna vill ha hundsällskap, så ordnar vi hundfritt när du kommer till mig.

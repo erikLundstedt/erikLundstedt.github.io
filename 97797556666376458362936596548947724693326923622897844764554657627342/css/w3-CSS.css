@@ -1,5 +1,31 @@
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 
+/*commenting out on the reason of moving to main.CSS
+
+html
+{
+	box-sizing: border-box;
+}
+
+*,*:before,*:after
+{
+	box-sizing: inherit;
+}
+*/
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
+/*
+html
+{
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+*/
+body
+{
+	margin: 0;
+}
+
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary
 {
 	display: block;
@@ -694,11 +720,6 @@ a
 	width: 99.99999%;
 }
 
-
-
-
-
-
 @media (min-width:601px)
 {
 	.w3-col.m1
@@ -761,9 +782,6 @@ a
 		width: 99.99999%;
 	}
 }
-
-
-
 
 @media (min-width:993px)
 {
@@ -828,10 +846,6 @@ a
 	}
 }
 
-
-
-
-
 .w3-content
 {
 	max-width: 980px;
@@ -884,12 +898,6 @@ a
 	display: inline-block!important;
 }
 
-
-
-
-
-
-
 @media (max-width:600px)
 {
 	.w3-modal-content
@@ -930,11 +938,6 @@ a
 	}
 }
 
-
-
-
-
-
 @media (max-width:768px)
 {
 	.w3-modal-content
@@ -947,10 +950,6 @@ a
 		padding-top: 50px;
 	}
 }
-
-
-
-
 
 @media (min-width:993px)
 {
@@ -970,11 +969,6 @@ a
 	}
 }
 
-
-
-
-
-
 @media (max-width:992px) and (min-width:601px)
 {
 	.w3-hide-medium
@@ -982,11 +976,6 @@ a
 		display: none!important;
 	}
 }
-
-
-
-
-
 
 @media (max-width:992px)
 {
@@ -1001,9 +990,6 @@ a
 		margin-right: 0!important;
 	}
 }
-
-
-
 
 .w3-top,.w3-bottom
 {
@@ -1109,12 +1095,6 @@ a
 	-ms-transform: translate(-50%,0%);
 }
 
-
-
-
-
-
-
 .w3-display-container:hover .w3-display-hover
 {
 	display: block;
@@ -1219,9 +1199,6 @@ a
 {
 	animation: w3-spin 2s infinite linear;
 }
-
-
-
 
 @keyframes w3-spin
 {
@@ -1378,12 +1355,6 @@ a
 		transform: scale(1);
 	}
 }
-
-
-
-
-
-
 
 .w3-animate-input
 {
