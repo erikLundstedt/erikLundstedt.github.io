@@ -7,9 +7,8 @@
 
 html
 {
-	font-family:'Gill Sans', 'Open Sans', 'Gill Sans MT', 'sans-serif';
+	font-family: 'Open Sans', sans-serif;
 	width: 100%;
-	font-family:'Gill Sans';
 	box-sizing: border-box;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -19,13 +18,12 @@ html
 body {
 	background-color: #222;
 	font-size: 18px;
-	/*
-	*/
-	/*
-	font-family: Arial, Helvetica, sans-serif;
-	*/
 }
+.times
+{
+font-family:'timesNewRoman'
 
+}
 
 
 
@@ -37,7 +35,7 @@ q
 
 ul,li
 {
-/*	text-decoration: none;*/
+	/*	text-decoration: none;*/
 	list-style-type: none;
 }
 
@@ -47,8 +45,8 @@ h3{padding: inherit;}
 h4{padding: 5px 8px;}
 h5{padding: inherit;}
 h6{padding: inherit;}
-	/*
-	p {padding: 5px 8px;}
+/*
+p {padding: 5px 8px;}
 a{}
 */
 
@@ -130,14 +128,14 @@ a{}
 }
 @media (min-width:601px)
 {
-.w3-half
+	.w3-half
 	{
 		width: 50%;
 	}
 }
 .w3-half
-	{
-		padding: 0 8px;
+{
+	padding: 0 8px;
 }
 
 
@@ -197,16 +195,16 @@ a{}
 
 .centerH
 {
-		text-align: center;
+	text-align: center;
 }
 .container-content
 {
-		margin: 0 auto;
+	margin: 0 auto;
 }
 .container-content ul li
 {
 	list-style: outside;
-		margin-top: 20px;
+	margin-top: 20px;
 }
 
 
@@ -232,20 +230,20 @@ a{}
 	background:url("../img/PsykologiLogo.jpg") center no-repeat;
 	background-color: rgb(256, 256, 256);
 	background-size:contain;
-	/*width: 90%;*/
+	width: 90%;
 	max-height: 250px;
 	min-height:250px;
-	padding: 15px 30px 0px;
+	/*padding: 15px 30px 0px;*/
 }
 /*973
 @media screen and (max-width: 450px)
 {
-		#banner
-	{
-		background-size: cover;
-		*/
-		/*	padding:0px 50px;
-	}
+#banner
+{
+background-size: cover;
+*/
+/*	padding:0px 50px;
+}
 }
 */
 
@@ -276,7 +274,7 @@ a{}
 .loggocolLight,.hover-loggocolLight:hover{
 	/*background-color:#009999;
 	color:#ddd;
-*/
+	*/
 	color:#fff!important;
 	background-color:#009999!important;
 }
@@ -286,7 +284,7 @@ a{}
 }
 .spacer{
 	padding:20px;
-/*	float: ;*/
+	/*	float: ;*/
 }
 div#divider
 {
@@ -298,25 +296,26 @@ div#divider
 
 
 .logotext h2,.logotext h4{
-		color: #009999;
+	color: #009999;
 }
 /*paralax*/
 /*
 body, html{
-	height:100%;
-	margin:0;
+height:100%;
+margin:0;
 }
 font-size:16px;
 font-weight:400;
 line-height:1.8em;
 color:#666;
-		*/
-		/*
+*/
+/*
 */
 .stenar{
 	background-image:url('../img/stenar.jpg');
 	max-width: 100%;
-	min-height:400px;
+	min-height:700px;
+
 }
 .interior1{
 	background-image:url('../img/interior1.jpg');
@@ -366,7 +365,7 @@ color:#666;
 }
 
 @media(max-width:500px){/*568*/
-.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
+	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
 	{
 		background-attachment:scroll;
 	}
@@ -399,7 +398,7 @@ color:#666;
 }
 .section p
 {
-/*	width: 50%;*/
+	/*	width: 50%;*/
 	max-width: 500px;
 }
 
@@ -424,6 +423,12 @@ p.lessWidth
 	padding: 30px 20px;
 }
 
+p.lessWidth .vinnie
+{
+	maxwidth: 500px;
+	padding: 30px 20px;
+	text-align:
+}
 
 
 
@@ -447,4 +452,23 @@ p.lessWidth
 #mapText
 {
 	max-width: 40%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+	.responsive
+	{
+		flex-direction:column;
+		max-width: 90%;
+	}
+
+
+
+
 }
