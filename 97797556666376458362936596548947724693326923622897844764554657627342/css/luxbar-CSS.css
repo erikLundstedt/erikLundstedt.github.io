@@ -437,18 +437,18 @@
 
 
 
-.luxbar-menu-loggocol,.luxbar-menu-loggocol .dropdown ul
+.luxbar-menu-loggocolLight,.luxbar-menu-loggocolLight .dropdown ul
 {
 	background-color: #009999;
 	color: #fff;
 }
 
-.luxbar-menu-loggocol .active,.luxbar-menu-loggocol .luxbar-item:hover
+.luxbar-menu-loggocolLight .active,.luxbar-menu-loggocolLight .luxbar-item:hover
 {
 	background-color: #006064;
 }
 
-.luxbar-menu-loggocol .luxbar-hamburger span,.luxbar-menu-loggocol .luxbar-hamburger span::before,.luxbar-menu-loggocol .luxbar-hamburger span::after
+.luxbar-menu-loggocolLight .luxbar-hamburger span,.luxbar-menu-loggocolLight .luxbar-hamburger span::before,.luxbar-menu-loggocolLight .luxbar-hamburger span::after
 {
 	background-color: #fff;
 }

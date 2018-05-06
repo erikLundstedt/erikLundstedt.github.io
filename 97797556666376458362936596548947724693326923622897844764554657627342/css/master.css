@@ -273,14 +273,14 @@ a{}
 	background-color:blue;
 }
 
-.loggocol,.hover-loggocol:hover{
+.loggocolLight,.hover-loggocolLight:hover{
 	/*background-color:#009999;
 	color:#ddd;
 */
 	color:#fff!important;
 	background-color:#009999!important;
 }
-.loggocolDark,.hover-loggocolDark:hover{
+.loggocol,.hover-loggocol:hover{
 	color:#fff!important;
 	background-color:#006064!important;
 }
@@ -442,4 +442,9 @@ p.lessWidth
 }
 .ptext .border.trans{
 	background-color:transparent;
+}
+/*kontakt*/
+#mapText
+{
+	max-width: 40%;
 }
