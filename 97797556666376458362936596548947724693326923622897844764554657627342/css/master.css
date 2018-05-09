@@ -21,7 +21,7 @@ body {
 }
 .times
 {
-font-family:'timesNewRoman'
+	font-family:'timesNewRoman'
 
 }
 
@@ -282,6 +282,37 @@ background-size: cover;
 	color:#fff!important;
 	background-color:#006064!important;
 }
+
+.grid button
+{
+	display: flex;
+/*
+*/
+}
+
+
+.buttons
+{
+	min-width:90px;
+	min-height:50px;
+}
+
+@media screen and (max-width: 768px)
+{
+	.buttons
+	{
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
+
+
+
 .spacer{
 	padding:20px;
 	/*	float: ;*/
