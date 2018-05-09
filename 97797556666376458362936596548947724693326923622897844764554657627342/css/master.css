@@ -285,8 +285,8 @@ background-size: cover;
 
 .grid button
 {
-	display: flex;
 /*
+display: flex;
 */
 }
 
@@ -295,13 +295,14 @@ background-size: cover;
 {
 	min-width:90px;
 	min-height:50px;
+	flex-direction: row;
 }
 
 @media screen and (max-width: 768px)
 {
 	.buttons
 	{
-		flex-direction: column;
+		flex-direction:row;
 	}
 }
 
@@ -456,9 +457,9 @@ p.lessWidth
 
 p.lessWidth .vinnie
 {
-	maxwidth: 500px;
+	max-width: 500px;
 	padding: 30px 20px;
-	text-align:
+/*	text-align:left;*/
 }
 
 
@@ -479,17 +480,16 @@ p.lessWidth .vinnie
 .ptext .border.trans{
 	background-color:transparent;
 }
+
+
+
+
+
 /*kontakt*/
 #mapText
 {
 	max-width: 40%;
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 768px)
 {
@@ -498,8 +498,5 @@ p.lessWidth .vinnie
 		flex-direction:column;
 		max-width: 90%;
 	}
-
-
-
-
+	
 }
