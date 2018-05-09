@@ -214,7 +214,6 @@ a{}
 .litenBild-vinnie
 {
 	max-height:440px;
-
 	max-width:630px;
 
 }
@@ -457,7 +456,7 @@ p.lessWidth
 
 p.lessWidth .vinnie
 {
-	max-width: 500px;
+	max-width: 300px;
 	padding: 30px 20px;
 /*	text-align:left;*/
 }
@@ -498,5 +497,5 @@ p.lessWidth .vinnie
 		flex-direction:column;
 		max-width: 90%;
 	}
-	
+
 }
