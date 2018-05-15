@@ -282,11 +282,13 @@ background-size: cover;
 	background-color:#006064!important;
 }
 
-.grid button
+.grid a
 {
-/*
+	color:black;
+	display: border-box;
+	background-color: #006064;
 display: flex;
-*/
+padding-top: 10px;
 }
 
 
