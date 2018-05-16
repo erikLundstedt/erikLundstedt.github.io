@@ -319,6 +319,13 @@ padding-top: 10px;
 	padding:20px;
 	/*	float: ;*/
 }
+.spacer,.tall
+{
+	padding: 30px;
+}
+
+
+
 div#divider
 {
 	position: relative;
