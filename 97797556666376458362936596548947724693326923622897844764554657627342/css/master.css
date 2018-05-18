@@ -274,19 +274,17 @@ background-size: cover;
 
 .grid a
 {
-	color:black;
-	display: border-box;
-	background-color: #006064;
-display: flex;
-padding-top: 10px;
 }
 
 
 .buttons
 {
-	min-width:90px;
-	min-height:50px;
-	flex-direction: row;
+	color:black;
+	display: block;
+	background-color: #006064;
+	padding: 10px 0px;
+	margin: 10px;
+	width: 200px;
 }
 
 @media screen and (max-width: 768px)
@@ -357,7 +355,7 @@ color:#666;
 }
 .bench{
 	background-image:url('../img/theBench.jpg');
-	min-height:400px;
+	min-height:500px;
 }
 .interior3{
 	background-image:url('../img/interior3.jpg');
