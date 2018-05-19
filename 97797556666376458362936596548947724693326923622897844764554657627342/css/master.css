@@ -432,7 +432,7 @@ color:#666;
 
 .section-light{
 	background-color:#f4f4f4;
-	color:rgb(128, 128, 128);/*gör mera grå*/
+	/*color:rgb(128, 128, 128);/*gör mera grå*/
 	color:#282e34;
 }
 .section-dark{
