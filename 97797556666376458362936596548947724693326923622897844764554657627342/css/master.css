@@ -316,26 +316,6 @@ background-size: cover;
 
 .buttons
 {
-	color:black;
-	display: block;
-	background-color: #006064;
-	padding: 10px 0px;
-	margin: 10px;
-	width: 200px;
-}
-
-div.grid a
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-	text-decoration: none;
-}
-
-div.grid a:hover
-{
-	background: #099;
 }
 
 
@@ -356,15 +336,6 @@ div.grid a:hover
 		flex-direction:row;
 	}
 }
-
-
-
-
-
-
-
-
-
 .spacer{
 	padding:20px;
 	/*	float: ;*/
@@ -527,6 +498,33 @@ div.doFlex
 .ptext .border.trans{
 	background-color:transparent;
 }
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
 
 
 
