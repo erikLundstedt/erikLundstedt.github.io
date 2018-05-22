@@ -211,17 +211,59 @@ a{}
 
 .float-left{float: left;}
 .float-right{float: right;}
-.litenBild-vinnie
+
+
+
+div#presentationWraper
 {
-	max-height:440px;
-	max-width:630px;
+	padding: 0 0 3em 3%;
+	overflow: hidden;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+div.presentationImageHolder
+{
+	max-width: 100%;
+}
+
+div.presentationImageHolder img.litenBild-lena
+{
+	float: left;
+	width: 100%;
+  	max-width: 350px;
+  	height: auto;
+	
+}
+
+div.presentationImageHolder p#lenaNorellText
+{
+	float: left;
+	min-width: 250px;
+}
+
+div.presentationImageHolder p#vinnieText
+{
+	float: left;
+	min-width: 250px;
+}
+div.presentationImageHolder img.litenBild-vinnie
+{
+	float: left;
+	width: 100%;
+  	max-width: 350px;
+  	height: auto;
 
 }
-.litenBild-lena
+p.lessWidth
 {
-	max-height: 440px;
+	width: 40%;
+	padding: 30px 20px;
+}
 
-	max-width: 305px;
+.clearFix
+{
+	clear: both;
 }
 
 #banner
@@ -245,16 +287,6 @@ background-size: cover;
 }
 }
 */
-
-#banner{
-	background:url("../img/PsykologiLogo.jpg") center no-repeat;
-	background-color: rgb(256, 256, 256);
-	background-size:contain;
-	width: 100%;
-	max-height: 250px;
-	min-height:250px;
-	/*	padding:15px 1px;*/
-}
 
 /*colors*/
 .white{
@@ -282,21 +314,39 @@ background-size: cover;
 	background-color:#006064!important;
 }
 
-.grid a
+.buttons
 {
 	color:black;
-	display: border-box;
+	display: block;
 	background-color: #006064;
-display: flex;
-padding-top: 10px;
+	padding: 10px 0px;
+	margin: 10px;
+	width: 200px;
+}
+
+div.grid a
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+}
+
+div.grid a:hover
+{
+	background: #099;
 }
 
 
 .buttons
 {
-	min-width:90px;
-	min-height:50px;
-	flex-direction: row;
+	color:black;
+	display: block;
+	background-color: #006064;
+	padding: 10px 0px;
+	margin: 10px;
+	width: 200px;
 }
 
 @media screen and (max-width: 768px)
@@ -319,6 +369,13 @@ padding-top: 10px;
 	padding:20px;
 	/*	float: ;*/
 }
+.spacer,.tall
+{
+	padding: 30px;
+}
+
+
+
 div#divider
 {
 	position: relative;
@@ -360,7 +417,7 @@ color:#666;
 }
 .bench{
 	background-image:url('../img/theBench.jpg');
-	min-height:400px;
+	min-height:500px;
 }
 .interior3{
 	background-image:url('../img/interior3.jpg');
@@ -437,7 +494,7 @@ color:#666;
 
 .section-light{
 	background-color:#f4f4f4;
-	color:rgb(128, 128, 128);/*gör mera grå*/
+	/*color:rgb(128, 128, 128);/*gör mera grå*/
 	color:#282e34;
 }
 .section-dark{
@@ -450,18 +507,7 @@ div.doFlex
 	display: flex;
 	padding: 50px 30px;
 }
-p.lessWidth
-{
-	width: 40%;
-	padding: 30px 20px;
-}
 
-p.lessWidth .vinnie
-{
-	max-width: 300px;
-	padding: 30px 20px;
-/*	text-align:left;*/
-}
 
 
 
