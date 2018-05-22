@@ -231,9 +231,9 @@ div.presentationImageHolder img.litenBild-lena
 {
 	float: left;
 	width: 100%;
-  	max-width: 350px;
-  	height: auto;
-	
+	max-width: 350px;
+	height: auto;
+
 }
 
 div.presentationImageHolder p#lenaNorellText
@@ -251,8 +251,8 @@ div.presentationImageHolder img.litenBild-vinnie
 {
 	float: left;
 	width: 100%;
-  	max-width: 350px;
-  	height: auto;
+	max-width: 350px;
+	height: auto;
 
 }
 p.lessWidth
