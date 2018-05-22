@@ -211,17 +211,59 @@ a{}
 
 .float-left{float: left;}
 .float-right{float: right;}
-.litenBild-vinnie
+
+
+
+div#presentationWraper
 {
-	max-height:440px;
-	max-width:630px;
+	padding: 0 0 3em 3%;
+	overflow: hidden;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+div.presentationImageHolder
+{
+	max-width: 100%;
+}
+
+div.presentationImageHolder img.litenBild-lena
+{
+	float: left;
+	width: 100%;
+  	max-width: 350px;
+  	height: auto;
+	
+}
+
+div.presentationImageHolder p#lenaNorellText
+{
+	float: left;
+	min-width: 250px;
+}
+
+div.presentationImageHolder p#vinnieText
+{
+	float: left;
+	min-width: 250px;
+}
+div.presentationImageHolder img.litenBild-vinnie
+{
+	float: left;
+	width: 100%;
+  	max-width: 350px;
+  	height: auto;
 
 }
-.litenBild-lena
+p.lessWidth
 {
-	max-height: 440px;
+	width: 40%;
+	padding: 30px 20px;
+}
 
-	max-width: 305px;
+.clearFix
+{
+	clear: both;
 }
 
 #banner
@@ -272,7 +314,7 @@ background-size: cover;
 	background-color:#006064!important;
 }
 
-.grid a
+.buttons
 {
 }
 
@@ -294,15 +336,6 @@ background-size: cover;
 		flex-direction:row;
 	}
 }
-
-
-
-
-
-
-
-
-
 .spacer{
 	padding:20px;
 	/*	float: ;*/
@@ -445,18 +478,7 @@ div.doFlex
 	display: flex;
 	padding: 50px 30px;
 }
-p.lessWidth
-{
-	width: 40%;
-	padding: 30px 20px;
-}
 
-p.lessWidth .vinnie
-{
-	max-width: 300px;
-	padding: 30px 20px;
-/*	text-align:left;*/
-}
 
 
 
