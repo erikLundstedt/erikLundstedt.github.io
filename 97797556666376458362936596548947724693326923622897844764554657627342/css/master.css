@@ -357,14 +357,6 @@ div.grid a:hover
 	}
 }
 
-
-
-
-
-
-
-
-
 .spacer{
 	padding:20px;
 	/*	float: ;*/
@@ -374,8 +366,6 @@ div.grid a:hover
 	padding: 30px;
 }
 
-
-
 div#divider
 {
 	position: relative;
@@ -383,7 +373,6 @@ div#divider
 	width: 100vw;
 	left: -80px;
 }
-
 
 .logotext h2,.logotext h4{
 	color: #009999;
@@ -459,7 +448,6 @@ color:#666;
 	{
 		background-attachment:scroll;
 	}
-
 	#top{
 		z-index: 1;
 	}
@@ -495,7 +483,7 @@ color:#666;
 .section-light{
 	background-color:#f4f4f4;
 	/*color:rgb(128, 128, 128);/*gör mera grå*/
-	color:#282e34;
+	color: #282e34;
 }
 .section-dark{
 	background-color:#004d4d;
@@ -507,9 +495,6 @@ div.doFlex
 	display: flex;
 	padding: 50px 30px;
 }
-
-
-
 
 .ptext{
 	position:absolute;
@@ -527,10 +512,6 @@ div.doFlex
 .ptext .border.trans{
 	background-color:transparent;
 }
-
-
-
-
 
 /*kontakt*/
 #mapText
