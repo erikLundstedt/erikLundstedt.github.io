@@ -126,13 +126,7 @@ a{}
 {
 	font-size: 64px!important;
 }
-@media (min-width:601px)
-{
-	.w3-half
-	{
-		width: 50%;
-	}
-}
+
 .w3-half
 {
 	padding: 0 8px;
@@ -140,44 +134,38 @@ a{}
 
 
 
-@media (max-width:600px)
+
+
+.w3-modal
 {
-	.w3-modal-content
-	{
-		margin: 0 10px;
-		width: auto!important;
-	}
+	padding-top: 30px;
+}
 
-	.w3-modal
-	{
-		padding-top: 30px;
-	}
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content
+{
+	position: relative;
+}
 
-	.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content
-	{
-		position: relative;
-	}
+.w3-hide-small
+{
+	display: none!important;
+}
 
-	.w3-hide-small
-	{
-		display: none!important;
-	}
+.w3-mobile
+{
+	display: block;
+	width: 100%!important;
+}
 
-	.w3-mobile
-	{
-		display: block;
-		width: 100%!important;
-	}
+.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile
+{
+	text-align: center;
+}
 
-	.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile
-	{
-		text-align: center;
-	}
-
-	.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button
-	{
-		width: 100%;
-	}
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button
+{
+	width: 100%;
+}
 }
 .w3-container,
 {
@@ -349,13 +337,13 @@ div.grid a:hover
 	width: 200px;
 }
 
-@media screen and (max-width: 768px)
-{
-	.buttons
-	{
-		flex-direction:row;
-	}
-}
+
+
+
+
+
+
+
 
 .spacer{
 	padding:20px;
@@ -443,15 +431,7 @@ color:#666;
 	background-attachment:fixed;
 }
 
-@media(max-width:500px){/*568*/
-	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
-	{
-		background-attachment:scroll;
-	}
-	#top{
-		z-index: 1;
-	}
-}
+
 .girlOnBalcony{
 	background-image:url('../img/girlOnBalcony.jpg');
 	min-height:650px;
@@ -518,6 +498,27 @@ div.doFlex
 {
 	max-width: 40%;
 }
+@media(max-width:500px){/*568*/
+	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
+	{
+		background-attachment:scroll;
+	}
+	#top{
+		z-index: 1;
+	}
+}
+@media (max-width:600px)
+{
+	.w3-modal-content
+	{
+		margin: 0 10px;
+		width: auto!important;
+	}
+	.w3-half
+	{
+		width: 50%;
+	}
+}
 
 @media screen and (max-width: 768px)
 {
@@ -526,5 +527,17 @@ div.doFlex
 		flex-direction:column;
 		max-width: 90%;
 	}
+	.buttons
+	{
+		flex-direction:row;
+	}
+}
 
+
+.flexContainer
+{
+	flex-direction: column;
+	color: red;
+	background-color: green;
+}
 }
