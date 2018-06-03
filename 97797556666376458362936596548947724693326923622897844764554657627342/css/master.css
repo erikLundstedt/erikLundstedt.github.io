@@ -338,7 +338,22 @@ div.grid a:hover
 }
 
 
+.qouteTest
+{
 
+}
+.quoteTest .cursiv
+{
+font-style: italic;
+
+
+}
+.qouteTest .times
+{
+font-family: timesNewRoman;
+
+
+}
 
 
 
@@ -498,6 +513,8 @@ div.doFlex
 {
 	max-width: 40%;
 }
+
+
 @media(max-width:500px){/*568*/
 	.pimg1, .pimg2, .pimg3 ,.interior1, .interior2, .interior3,.Vinnie1,.Vinnie2,.PsykologiLogo,.girlOnBalcony,.stenar,.mys,.bench
 	{
@@ -520,7 +537,7 @@ div.doFlex
 	}
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 500px)
 {
 	.responsive
 	{
@@ -531,7 +548,6 @@ div.doFlex
 	{
 		flex-direction:row;
 	}
-}	
 
 
 .flexContainer
@@ -539,5 +555,6 @@ div.doFlex
 	flex-direction: column;
 	color: red;
 	background-color: green;
+}
 }
 }
