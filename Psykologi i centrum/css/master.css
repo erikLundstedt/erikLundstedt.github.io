@@ -588,6 +588,14 @@ ul.listaMedPunkter li
 	{
 		margin-left: 20px;
 	}
+	#mvLeft
+	{
+	width: 80%;
+		max-width: 200px;
+display: flex;
+		background-color: red;
+
+	}
 	h2{
 		margin-bottom: 22px;
 		margin-left: 10px;
