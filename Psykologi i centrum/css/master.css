@@ -49,10 +49,10 @@ h5{padding: ;}
 h6{padding: ;}
 
 
-p 
+p
 {
     margin-bottom: 16px;
-    
+
 }
 
 
@@ -194,7 +194,7 @@ p
 }
 .container-content
 {
-	margin: 0 auto;
+	/*margin: 0 auto;*/display:flex;
 }
 .container-content ul li
 {
@@ -214,7 +214,7 @@ div#presentationWraper
 	padding: 5em 0 3em 0;
 	overflow: hidden;
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 0 auto;/*display:flex;*/
 }
 
 div.presentationImageHolder
