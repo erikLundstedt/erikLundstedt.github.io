@@ -8,7 +8,6 @@
 html
 {
 	font-family: 'Open Sans', sans-serif;
-	width: 100%;
 	box-sizing: border-box;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -480,9 +479,9 @@ color:#666;
 .section{
 	/*text-align:center;*/
 	display: flex;
-/*	justify-content: center;
+	justify-content: center;
 	align-items: center;
-*/
+
 }
 
 .section .textContentPosition
@@ -517,7 +516,7 @@ div.doFlex
 .flexChild
 {
 	margin-right: 4em;
-	color: hsla(121, 82%, 45%, 0.85);
+	
 }
 
 .ptext{
@@ -576,7 +575,7 @@ ul.listaMedPunkter li
 	}
 	.w3-half
 	{
-		width: 50%;
+		width: 95%;
 	}
 
 	p, q
@@ -600,6 +599,9 @@ ul.listaMedPunkter li
 
 @media screen and (max-width: 500px)
 {
+	.flexChild{
+margin-right: 0;
+	}
 	.responsive
 	{
 		flex-direction:column;
@@ -609,11 +611,11 @@ ul.listaMedPunkter li
 	{
 		flex-direction:row;
 	}
-div.doFlex
-{
-max-width: 450px;
+	div.doFlex
+	{
+	max-width: 450px;
 
-}
+	}
 
 	.flexContainer
 	{
@@ -623,6 +625,17 @@ max-width: 450px;
 	{
 		min-width: 250px;
 	}
+	.container-content
+	{
+		margin: 0;/*display:flex;*/
+	}
+ul.listaMedPunkter
+{
+	font-size: 0.8em;
+}
+
+
+
 }
 @media screen and (max-width:680px)
 {
